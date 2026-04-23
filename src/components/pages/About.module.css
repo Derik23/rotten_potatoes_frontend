@@ -1,0 +1,66 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  color: #e5e5e5;
+  line-height: 1.6;
+}
+
+.container h1 {
+  margin: 1.5em;
+  color: #ff6701;
+  border-radius: 10px;
+  border-bottom: 3px solid #ff6701;
+  border-top: 3px solid #ff6701;
+  font-size: 2em;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  border-left: 2px solid #ff6701;
+  padding-left: 0.75rem;
+}
+
+.container h3 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  color: #cfcfcf;
+}
+
+.container p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #bdbdbd;
+}
+
+.container ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.container li {
+  margin-bottom: 0.4rem;
+  color: #d1d1d1;
+}
+
+.container strong {
+  color: #646cff;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1.5rem 1rem;
+  }
+
+  .container h1 {
+    font-size: 1.8rem;
+  }
+
+  .container h2 {
+    font-size: 1.2rem;
+  }
+}

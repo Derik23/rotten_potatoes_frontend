@@ -1,0 +1,71 @@
+.searchcard_container {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 1px 1px 10px #969696;
+  border-radius: 10px;
+  width: 295px;
+
+  & h4 {
+    padding: 1em 0 0.5em 0;
+    color: #ff6701;
+  }
+
+  & p {
+    font-weight: 500;
+  }
+}
+
+.searchcard_container:hover {
+  box-shadow: 5px 5px 30px #ff6701;
+}
+
+.searchcard_poster {
+  border-radius: 10px;
+}
+
+.rating_list {
+  list-style: none;
+  padding-top: 1em;
+  font-size: 15px;
+
+  & span {
+    font-weight: bold;
+    padding: 0.5em 0.5em 0.5em 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .searchcard_container {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .searchcard_container {
+    width: 190px;
+  }
+
+  .rating_list {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .searchcard_container {
+    width: 120px;
+  }
+
+  .rating_list {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .searchcard_container {
+    width: 250px;
+  }
+}

@@ -1,0 +1,39 @@
+.search_form {
+  color: #fff;
+  position: relative;
+  width: 300px;
+}
+
+.search_form input {
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  border: 1px solid #f4b942;
+  border-radius: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.search_form input:focus {
+  border: 3px solid #f4b942;
+  outline: none;
+}
+
+.search_form input::placeholder {
+  font-size: 1em;
+}
+
+.search_icon {
+  font-size: 1.5em;
+  color: #333;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 540px) {
+  .search_form {
+    margin-bottom: 1em;
+  }
+}

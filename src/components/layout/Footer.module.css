@@ -1,0 +1,28 @@
+.footer_container {
+  background: linear-gradient(#f4b942, #db970f);
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & p {
+    color: #333;
+    font-weight: 600;
+    font-size: 1em;
+    opacity: 0.9;
+
+    & span {
+      color: #ccc;
+      padding: 0 0.5em 0 0.5em;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer_container span {
+    display: block;
+  }
+  .footer_container {
+    text-align: center;
+  }
+}

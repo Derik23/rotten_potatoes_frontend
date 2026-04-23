@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 100%;
+  min-height: 83vh;
+  padding: 2em;
+}
+
+.card_container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 2em;
+  flex-wrap: wrap;
+}
+
+.loading {
+  background-color: aliceblue;
+}
